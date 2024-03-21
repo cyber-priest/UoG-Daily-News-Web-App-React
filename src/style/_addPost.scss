@@ -1,0 +1,97 @@
+.addPostBody {
+  // width: 100%;
+  // height: 100vh;
+  // background-color: $bodyShade;
+  .addPost {
+    padding: 5px 30px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    .postContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        input {
+          padding: 20px;
+          font-size: 15px;
+          font-weight: 700;
+          &:focus {
+            border: none;
+            outline: solid 1px #ff2626;
+          }
+          &::placeholder {
+            font-weight: 700;
+          }
+        }
+        textarea {
+          margin-top: 12px;
+          font-size: 14px;
+          font-weight: 500;
+          height: 200px;
+          padding: 15px;
+          border-radius: 5px;
+          &:focus {
+            border: none;
+            outline: solid 1px #ff2626;
+          }
+          &::placeholder {
+            font-weight: 600;
+          }
+        }
+        .section {
+          // background-color: #0059ff21;
+          margin: 15px 0px;
+          justify-content: space-evenly;
+          font-size: 13px;
+          display: flex;
+          div {
+            display: flex;
+            p {
+              font-size: 16px;
+              font-weight: 600;
+            }
+            select {
+              margin-left: 10%;
+              // color: white;
+              // background-color: #9c9c9c;
+              padding: 0px 10px;
+              border: solid 2px #0000003f;
+              border-radius: 5px;
+            }
+          }
+        }
+        .uploader {
+          display: flex;
+          padding: 20px;
+          margin-top: 12px;
+          border: dotted 1px #00000060;
+          border-radius: 5px;
+          // background-color: #16223b;
+          label div {
+            display: flex;
+            align-items: center;
+            span {
+              font-size: 14px;
+            }
+          }
+        }
+        .btnHolder {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          .submit-btn {
+            padding: 10px 50px;
+            margin-top: 12px;
+            background-color: #ff2626;
+          }
+        }
+      }
+    }
+  }
+}

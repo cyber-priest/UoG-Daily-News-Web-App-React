@@ -1,0 +1,70 @@
+.sideMenu {
+  position: fixed;
+  background-color: #0e1627;
+  height: 100vh;
+  width: 250px;
+  transition: all 0.2s ease-in;
+  margin-top: 0px;
+  box-shadow: 3px 0px #00000011;
+  .header {
+    margin-top: 15px;
+    .title {
+      margin-left: 20px;
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 20px;
+      color: white;
+    }
+    .bars {
+      margin-right: 10px;
+      float: right;
+      cursor: pointer;
+    }
+  }
+  .menu {
+    margin-top: 50px;
+    p {
+      margin-left: 20px;
+      margin-bottom: 15px;
+      color: #3e60e7;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 10px 15px 40px;
+      &:hover {
+        background-color: #0c111f;
+        cursor: pointer;
+        border-left: solid 1px #3e60e7;
+      }
+      &:active {
+        background-color: #0c111f;
+        cursor: pointer;
+        border-left: solid 4px #3e60e7;
+      }
+      div {
+        display: flex;
+        span {
+          margin-left: 20px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .footer {
+    width: 100%;
+    color: white;
+    word-break: break-all;
+    span {
+      color: white;
+    }
+    button {
+      float: right;
+      color: white;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+  }
+}

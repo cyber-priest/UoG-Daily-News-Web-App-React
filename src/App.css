@@ -1,0 +1,121 @@
+.container {
+  position: absolute;
+  width: 65%;
+  left: 25%;
+  padding: 30px;
+  /* margin: 20px; */
+}
+.container .nav-tools button{
+  color: white;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+/* addPost */
+
+/*Dasboard*/
+
+/* .dashboard, .news, .post, .schedule {
+ 
+} */
+
+.dashboard .dash-col {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.dashboard .dashContent {
+  text-align: center;
+  /* margin: auto; */
+  padding: 10px 40px 10px 40px;
+  width: 130px;
+  background-color: #0e1627;
+  border-radius: 10px;
+  box-shadow: 0px 3px #00000031;
+}
+.dashboard .icon {
+  /* color: #00ff80; */
+  font-size: 25px;
+  /* background-color: #00ff8042; */
+  padding: 18px;
+  border-radius: 100%;
+  margin: 0px;
+}
+.dashboard h4 {
+  margin-top: 5px;
+  /* margin-bottom: 20px; */
+}
+.dashboard p {
+  margin-top: -15px;
+  font-size: 13px;
+}
+.storageCard,
+.posterCard {
+  background-color: #0e1627;
+  display: flex;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px #00000031;
+  text-align: center;
+}
+.storageCard .icon {
+  padding: 15px;
+  /* border-radius: 20%; */
+  height: 30px;
+  width: 40px;
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+  background-color: #ffffff42;
+  margin-left: 10px;
+}
+.storageCard .status {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.storageCard .storageProgress {
+  width: 100%;
+  display: block;
+  margin: 40px 30px 0px 30px;
+}
+.storageCard .storageProgress .usage {
+  display: flex;
+  justify-content: space-between;
+}
+.storageCard .progessHolder {
+  background-color: #0b183b;
+  height: 20px;
+  width: 100%;
+  border-radius: 10px;
+  /* color: #c5c5c5; */
+}
+.storageCard .progres {
+  background-color: #05257c;
+  height: 20px;
+  width: 70%;
+  border-radius: 10px;
+}
+.posterCard {
+  display: block;
+}
+.posterCard table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.posterCard table td,
+th {
+  text-align: left;
+  padding: 12px 15px;
+}
+.posterCard table td div {
+  padding: 10px 20px;
+  width: 10%;
+  background-color: indigo;
+  border-radius: 5px;
+}
+
+*{
+  font-family: "Montserrat";
+}

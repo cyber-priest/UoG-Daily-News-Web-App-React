@@ -1,0 +1,12 @@
+@import "./variables";
+@import "./homeStyle";
+@import "./sideMenu";
+@import "./addPost";
+@import "./formStyle";
+
+body {
+  background-color: white;
+  color: $textColor;
+  margin: 0px;
+  // margin-top: 70px;
+}

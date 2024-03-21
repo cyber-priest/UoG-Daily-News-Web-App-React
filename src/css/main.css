@@ -1,0 +1,456 @@
+.home h4 {
+  color: #cddfff;
+}
+
+.home .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
+}
+
+.home .nav .nav-tabs button {
+  padding: 21px 30px;
+  color: #f5f8ff;
+  font-size: 12px;
+  font-family: "Montserrat";
+  border-radius: 0px;
+}
+
+.home .nav-tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .nav-tools button {
+  margin-right: 10px;
+  color: #cddfff;
+}
+
+.sideMenu {
+  position: fixed;
+  background-color: #0e1627;
+  height: 100vh;
+  width: 250px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 0px;
+  -webkit-box-shadow: 3px 0px #00000011;
+          box-shadow: 3px 0px #00000011;
+}
+
+.sideMenu .header {
+  margin-top: 15px;
+}
+
+.sideMenu .header .title {
+  margin-left: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.sideMenu .header .bars {
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.sideMenu .menu {
+  margin-top: 50px;
+}
+
+.sideMenu .menu p {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  color: #3e60e7;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sideMenu .menu .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 10px 15px 40px;
+}
+
+.sideMenu .menu .content:hover {
+  background-color: #0c111f;
+  cursor: pointer;
+  border-left: solid 1px #3e60e7;
+}
+
+.sideMenu .menu .content:active {
+  background-color: #0c111f;
+  cursor: pointer;
+  border-left: solid 4px #3e60e7;
+}
+
+.sideMenu .menu .content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sideMenu .menu .content div span {
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.sideMenu .footer {
+  width: 100%;
+  color: white;
+  word-break: break-all;
+}
+
+.sideMenu .footer span {
+  color: white;
+}
+
+.sideMenu .footer button {
+  float: right;
+  color: white;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.addPostBody .addPost {
+  padding: 5px 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.addPostBody .addPost .postContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addPostBody .addPost .postContainer form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.addPostBody .addPost .postContainer form input {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.addPostBody .addPost .postContainer form input:focus {
+  border: none;
+  outline: solid 1px #ff2626;
+}
+
+.addPostBody .addPost .postContainer form input::-webkit-input-placeholder {
+  font-weight: 700;
+}
+
+.addPostBody .addPost .postContainer form input:-ms-input-placeholder {
+  font-weight: 700;
+}
+
+.addPostBody .addPost .postContainer form input::-ms-input-placeholder {
+  font-weight: 700;
+}
+
+.addPostBody .addPost .postContainer form input::placeholder {
+  font-weight: 700;
+}
+
+.addPostBody .addPost .postContainer form textarea {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 200px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.addPostBody .addPost .postContainer form textarea:focus {
+  border: none;
+  outline: solid 1px #ff2626;
+}
+
+.addPostBody .addPost .postContainer form textarea::-webkit-input-placeholder {
+  font-weight: 600;
+}
+
+.addPostBody .addPost .postContainer form textarea:-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.addPostBody .addPost .postContainer form textarea::-ms-input-placeholder {
+  font-weight: 600;
+}
+
+.addPostBody .addPost .postContainer form textarea::placeholder {
+  font-weight: 600;
+}
+
+.addPostBody .addPost .postContainer form .section {
+  margin: 15px 0px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addPostBody .addPost .postContainer form .section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addPostBody .addPost .postContainer form .section div p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.addPostBody .addPost .postContainer form .section div select {
+  margin-left: 10%;
+  padding: 0px 10px;
+  border: solid 2px #0000003f;
+  border-radius: 5px;
+}
+
+.addPostBody .addPost .postContainer form .uploader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin-top: 12px;
+  border: dotted 1px #00000060;
+  border-radius: 5px;
+}
+
+.addPostBody .addPost .postContainer form .uploader label div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addPostBody .addPost .postContainer form .uploader label div span {
+  font-size: 14px;
+}
+
+.addPostBody .addPost .postContainer form .btnHolder {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addPostBody .addPost .postContainer form .btnHolder .submit-btn {
+  padding: 10px 50px;
+  margin-top: 12px;
+  background-color: #ff2626;
+}
+
+.formBody {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: #000000a1;
+}
+
+.formBody .formHolder {
+  z-index: 10;
+  width: 60%;
+  margin-top: 2%;
+  display: flexbox;
+  position: relative;
+  left: 20%;
+  right: 20%;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  color: whitesmoke;
+  background-color: #0e1729;
+  text-align: center;
+  border-radius: 20px;
+  justify-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formBody .formHolder .signUpForm {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+
+.formBody .formHolder .signUpForm .user-icon {
+  margin-bottom: 20px;
+}
+
+.formBody .formHolder .signUpForm .user-icon i {
+  font-size: 60px;
+  color: white;
+  background-color: #141529;
+}
+
+.formBody .formHolder .signUpForm h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.formBody .formHolder .signUpForm input {
+  width: 100%;
+  margin-top: 15px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  /* border-bottom-right-radius: 0px; */
+}
+
+.formBody .formHolder .signUpForm input[type="submit"] {
+  margin-top: 10%;
+  border-radius: 10px;
+  position: static;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #0a0b16;
+  color: white;
+  border-top-left-radius: 10px;
+}
+
+.formBody .formHolder .signUpForm input[type="submit"]:hover {
+  background-color: white;
+  color: #0a0b16;
+}
+
+.formBody .formHolder .signUpForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formBody .formHolder .signUpForm i {
+  background-color: white;
+  padding: 20px;
+  border-right: none;
+  color: #141529;
+  margin-top: 15px;
+  height: 18px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.formBody .formHolder .signUpForm button {
+  padding: 10px 30px 10px 30px;
+  color: white;
+  background-color: #141529;
+  border: solid 1px gray;
+  border-radius: 10px;
+  float: right;
+  margin-top: 20px;
+}
+
+.formBody .formHolder .signUpForm button:hover {
+  background-color: white;
+  color: #141529;
+  border: none;
+}
+
+/* Medium Devices, Desktops */
+@media all and (max-width: 992px) {
+  .formHolder {
+    width: 70%;
+    left: 15%;
+    right: 15%;
+  }
+  .signUpForm {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media all and (max-width: 768px) {
+  .signUpForm {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media all and (max-width: 480px) {
+  .formHolder {
+    width: 90%;
+    margin-top: 20%;
+    left: 5%;
+    right: 5%;
+  }
+}
+
+/* Custom, iPhone Retina */
+/* Large Devices, Wide Screens */
+@media all and (min-width: 1200px) {
+  .formHolder {
+    width: 60%;
+    left: 20%;
+    right: 20%;
+  }
+  .signUpForm {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+body {
+  background-color: white;
+  color: #1f1f1f;
+  margin: 0px;
+}
